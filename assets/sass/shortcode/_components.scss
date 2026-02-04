@@ -188,7 +188,6 @@
   }
 
   @media (max-width: 991px) {
-
     input {
       padding: 32px 30px;
     }
@@ -336,7 +335,9 @@
       transform: translate(-50%, -50%) scale(0);
       opacity: 0;
       pointer-events: none;
-      transition: transform ease 0.4s, opacity ease 0.4s;
+      transition:
+        transform ease 0.4s,
+        opacity ease 0.4s;
     }
 
     &:hover {
@@ -578,7 +579,7 @@
     margin-top: auto;
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     p {
       margin-bottom: 24px;
     }
@@ -821,7 +822,7 @@
     flex: none;
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     .cs_form_field {
       padding: 17px 20px;
     }
@@ -829,7 +830,6 @@
     .cs_btn.cs_style_1 {
       padding: 17px 40px;
     }
-
   }
 }
 
@@ -983,7 +983,7 @@
     color: var(--white-color);
   }
 
-  @media (max-width:575px) {
+  @media (max-width: 575px) {
     width: 45px;
     height: 45px;
     padding: 5px;

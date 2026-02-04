@@ -10,10 +10,12 @@
 }
 
 .draggable {
-  cursor: url(../img/drag.png) 16 9, ew-resize !important;
+  cursor:
+    url(../img/drag.png) 16 9,
+    ew-resize !important;
 }
 
-.slick-slide>div {
+.slick-slide > div {
   display: flex;
   flex-direction: column;
 }
@@ -28,7 +30,6 @@
       transform: translateY(0);
       opacity: 1;
     }
-
   }
 }
 
@@ -46,7 +47,7 @@
     }
   }
 
-  @media (max-width:1399px) {
+  @media (max-width: 1399px) {
     .slick-current {
       .cs_testimonial.cs_style_3 {
         padding-right: 40px;
@@ -54,7 +55,7 @@
     }
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     .slick-current {
       .cs_testimonial.cs_style_3 {
         padding-right: 0;
@@ -249,7 +250,6 @@
   }
 
   &:hover {
-
     .cs_left_arrow,
     .cs_right_arrow {
       visibility: visible;
@@ -274,7 +274,6 @@
       }
     }
   }
-
 }
 
 .cs_rooms_slider_wrapper {
@@ -284,13 +283,12 @@
     padding: 0 128px;
   }
 
-  @media (max-width:1399px) {
+  @media (max-width: 1399px) {
     padding: 0 !important;
   }
 }
 
 .cs_single_room_slider_1 {
-
   .cs_page_header.cs_style_1 {
     padding: 278px 0 233px;
 
@@ -333,7 +331,7 @@
     }
   }
 
-  @media (max-width:1399px) {
+  @media (max-width: 1399px) {
     .cs_fs_64 {
       font-size: 48px;
     }
@@ -343,7 +341,7 @@
     }
   }
 
-  @media (max-width:1199px) {
+  @media (max-width: 1199px) {
     .cs_page_header.cs_style_1 {
       padding: 240px 0 160px;
     }
@@ -362,14 +360,13 @@
     }
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     .cs_page_header.cs_style_1 {
       padding: 160px 0 130px;
     }
   }
 
-
-  @media (max-width:767px) {
+  @media (max-width: 767px) {
     .cs_fs_64 {
       font-size: 42px;
     }
@@ -381,7 +378,6 @@
 }
 
 .cs_single_room_nav_1 {
-
   .slick-list {
     margin-left: -10px;
     margin-right: -10px;
@@ -410,7 +406,8 @@
     z-index: 1;
 
     &:hover {
-      filter: brightness(0) saturate(100%) invert(63%) sepia(48%) saturate(303%) hue-rotate(359deg) brightness(96%) contrast(91%);
+      filter: brightness(0) saturate(100%) invert(63%) sepia(48%) saturate(303%)
+        hue-rotate(359deg) brightness(96%) contrast(91%);
     }
   }
 
@@ -439,7 +436,7 @@
     }
   }
 
-  @media (max-width:1399px) {
+  @media (max-width: 1399px) {
     .cs_single_room_thumb_mini {
       max-width: 360px;
     }
@@ -451,7 +448,7 @@
     }
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     .cs_single_room_thumb_mini {
       max-width: 300px;
     }
@@ -463,7 +460,7 @@
     }
   }
 
-  @media (max-width:575px) {
+  @media (max-width: 575px) {
     .cs_single_room_thumb_mini {
       max-width: 260px;
     }
@@ -484,7 +481,6 @@
  Slider Arrows
 ===================================================*/
 .cs_slider_arrows.cs_style_1 {
-
   .cs_left_arrow,
   .cs_right_arrow {
     width: 88px;
@@ -514,7 +510,6 @@
   }
 
   &.cs_type_1 {
-
     .cs_left_arrow,
     .cs_right_arrow {
       top: 28%;
@@ -523,7 +518,6 @@
   }
 
   &.cs_type_2 {
-
     .cs_left_arrow,
     .cs_right_arrow {
       top: 28%;
@@ -537,7 +531,6 @@
   }
 
   @media (max-width: 991px) {
-
     .cs_left_arrow,
     .cs_right_arrow {
       width: 68px;
@@ -547,7 +540,6 @@
 }
 
 .cs_slider_arrows.cs_style_2 {
-
   .cs_left_arrow,
   .cs_right_arrow {
     width: 54px;
@@ -632,7 +624,7 @@
     right: 0;
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     left: 50%;
     transform: translateX(-50%);
 
@@ -667,8 +659,8 @@
       cursor: pointer;
       transition: all 0.4s ease;
 
-      &:not(:empty):not(:nth-child(n+10))::before {
-        content: '0';
+      &:not(:empty):not(:nth-child(n + 10))::before {
+        content: "0";
         line-height: inherit;
       }
     }
@@ -703,7 +695,7 @@
     }
   }
 
-  @media (max-width:575px) {
+  @media (max-width: 575px) {
     &.custom_pagination {
       .slick-dots {
         gap: 15px;
@@ -725,7 +717,7 @@
 .cs_pagination_wrapper {
   gap: 64px;
 
-  @media (max-width:575px) {
+  @media (max-width: 575px) {
     gap: 20px;
   }
 }
@@ -751,7 +743,7 @@
       width: 100%;
       height: 100%;
       font-size: 30px;
-      font-family: 'Font Awesome 6 Free';
+      font-family: "Font Awesome 6 Free";
       font-weight: 900;
       color: var(--heading-color);
       position: absolute;
@@ -783,11 +775,11 @@
     }
   }
 
-  @media (max-width:767px) {
+  @media (max-width: 767px) {
     gap: 20px;
   }
 
-  @media (max-width:520px) {
+  @media (max-width: 520px) {
     .slick-arrow {
       display: none !important;
     }

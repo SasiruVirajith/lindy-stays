@@ -1,3 +1,24 @@
+/*
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║              A SOLUTION DEVELOPED BY OPTI5 LABS                            ║
+║                                                                            ║
+║  This source code and all associated files are the exclusive property      ║
+║  of Opti5 Labs and are protected under copyright law.                      ║
+║                                                                            ║
+║  INTEGRITY HASH: opti5-labs-2026-lindy-stays-v1.0                          ║
+║  DEVELOPMENT DATE: February 2026                                           ║
+║  DEVELOPER: Opti5 Labs (https://www.instagram.com/opti5.labs/)             ║
+║                                                                            ║
+║  UNAUTHORIZED ACCESS, COPYING, MODIFICATION, OR DISTRIBUTION OF THIS       ║
+║  CODE WITHOUT EXPLICIT WRITTEN PERMISSION FROM OPTI5 LABS IS STRICTLY      ║
+║  PROHIBITED AND MAY RESULT IN LEGAL ACTION.                                ║
+║                                                                            ║
+║  For licensing inquiries, contact: opti5.labs                              ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+*/
+
 (function ($) {
   "use strict";
 
@@ -78,7 +99,7 @@
     const mobileWidth = 1199;
     if ($(window).width() >= mobileWidth) {
       $(".cs_header_top,.cs_menu_toggle,.cs_nav_list_wrap").removeClass(
-        "active"
+        "active",
       );
     }
   });
@@ -96,7 +117,7 @@
   function mainNav() {
     $(".cs_nav").append('<span class="cs_menu_toggle"><span></span></span>');
     $(".menu-item-has-children").append(
-      '<span class="cs_menu_dropdown_toggle"><span></span></span>'
+      '<span class="cs_menu_dropdown_toggle"><span></span></span>',
     );
     $(".cs_menu_toggle").on("click", function () {
       $(this)
@@ -171,7 +192,7 @@
         var centerVar = Boolean(parseInt($ts.attr("data-center"), 10));
         // Variable Width
         var variableWidthVar = Boolean(
-          parseInt($ts.attr("data-variable-width"), 10)
+          parseInt($ts.attr("data-variable-width"), 10),
         );
         // Pagination
         var paginaiton = $(this)
@@ -199,9 +220,9 @@
           function (event, slick, currentSlide, nextSlide) {
             var i = (currentSlide ? currentSlide : 0) + 1;
             $status.html(
-              `<span class="cs_current_number">${i}</span> <span class="cs_slider_number_seperator"></span> <span class="cs_total_numbers">${slick.slideCount}</span>`
+              `<span class="cs_current_number">${i}</span> <span class="cs_slider_number_seperator"></span> <span class="cs_total_numbers">${slick.slideCount}</span>`,
             );
-          }
+          },
         );
         /* End Count Slide Number */
 
@@ -332,7 +353,7 @@
           $("html").removeClass("overflow-hidden");
           $(".cs_video_popup_container iframe").attr("src", "about:blank");
           e.preventDefault();
-        }
+        },
       );
     }
   }
@@ -347,7 +368,7 @@
         {
           scrollTop: 0,
         },
-        0
+        0,
       );
     });
   }
@@ -463,7 +484,7 @@
         let cs_end_date = end.format("YYYY-MM-DD").toString();
         $(".cs_start_date").text(cs_start_date);
         $(".cs_end_date").text(cs_end_date);
-      }
+      },
     );
   }
 
@@ -664,3 +685,20 @@
     });
   }
 })(jQuery); // End of use strict
+
+/*
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║                         OPTI5 LABS WATERMARK                               ║
+║                                                                            ║
+║              INTEGRITY HASH: opti5-labs-2026-lindy-stays-v1.0              ║
+║                    © 2026 Opti5 Labs. All rights reserved.                 ║
+║                                                                            ║
+║  This source code is the exclusive property of Opti5 Labs and is           ║
+║  protected under copyright law. Unauthorized reproduction, modification,   ║
+║  or distribution is prohibited.                                            ║
+║                                                                            ║
+║  For licensing inquiries: opti5.labs                                       ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+*/

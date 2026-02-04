@@ -73,7 +73,7 @@
         left: 16px;
       }
 
-      &:not(:empty):not(:nth-child(n+10))::after {
+      &:not(:empty):not(:nth-child(n + 10))::after {
         content: counter(item);
         left: 0;
       }
@@ -150,7 +150,7 @@
     }
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     .cs_footer_main {
       padding-bottom: 50px;
     }
@@ -206,7 +206,7 @@
     }
   }
 
-  @media (max-width:767px) {
+  @media (max-width: 767px) {
     .cs_footer_main {
       gap: 40px;
     }

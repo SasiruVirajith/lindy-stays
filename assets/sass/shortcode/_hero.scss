@@ -93,7 +93,6 @@
 }
 
 .cs_hero.cs_style_3 {
-
   &::before,
   &::after {
     content: "";
@@ -362,7 +361,6 @@
   }
 
   &.cs_type_1 {
-
     .cs_start_date,
     .cs_end_date,
     .cs_select_btn,
@@ -388,7 +386,6 @@
   }
 
   &.cs_type_2 {
-
     .cs_start_date,
     .cs_end_date,
     .cs_select_btn,
@@ -589,7 +586,6 @@
     .cs_end_date,
     .cs_select_btn,
     .cs_quantity_btn {
-
       &::before {
         right: 0px;
       }
@@ -635,7 +631,6 @@
     }
 
     &.cs_type_3 {
-
       .cs_date_item,
       .cs_form_item {
         width: 100%;
@@ -648,7 +643,6 @@
   Page Header
 ===============================================*/
 .cs_page_header.cs_style_1 {
-
   &::before,
   &::after {
     content: "";
@@ -686,7 +680,7 @@
     padding: 277px 0 188px;
   }
 
-  .breadcrumb-item+.breadcrumb-item::before {
+  .breadcrumb-item + .breadcrumb-item::before {
     content: "\f054";
     font-size: 14px;
     color: var(--white-color);

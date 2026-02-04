@@ -82,7 +82,8 @@
     }
 
     .cs_site_brand {
-      filter: brightness(0) saturate(100%) invert(72%) sepia(16%) saturate(904%) hue-rotate(359deg) brightness(92%) contrast(83%);
+      filter: brightness(0) saturate(100%) invert(72%) sepia(16%) saturate(904%)
+        hue-rotate(359deg) brightness(92%) contrast(83%);
     }
 
     .cs_header_top_in {
@@ -317,7 +318,7 @@
         justify-content: center;
         height: inherit;
 
-        >li {
+        > li {
           margin-right: 48px;
           height: inherit;
           position: relative;
@@ -326,7 +327,7 @@
             margin-right: 0;
           }
 
-          >a {
+          > a {
             display: inline-flex;
             position: relative;
             height: inherit;
@@ -337,7 +338,7 @@
             }
           }
 
-          >ul {
+          > ul {
             list-style: none;
             left: 0;
             top: calc(100% + 15px);
@@ -345,7 +346,7 @@
           }
 
           &:hover {
-            >ul {
+            > ul {
               top: 100%;
               opacity: 1;
               visibility: visible;
@@ -354,7 +355,7 @@
           }
 
           &.menu-item-has-children {
-            >a {
+            > a {
               position: relative;
               padding-right: 16px;
 
@@ -522,7 +523,7 @@
         line-height: 1.6em;
         overflow: auto;
 
-        >li {
+        > li {
           width: 100%;
           margin-right: 0;
         }
